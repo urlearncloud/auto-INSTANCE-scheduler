@@ -3,9 +3,9 @@
 
 ### steps :-
 
-create instance
+1. create instance
 
-policy for one lambda function ( start-lambdafunction )
+2. policy for one lambda function ( start-lambdafunction )
 
 --->  service = ec2    ---->  Actions allowed = select  " DescribeInstances , StartInstances "
 
@@ -13,7 +13,7 @@ policy for one lambda function ( start-lambdafunction )
 
 --->  Policy name = start-ec2-policy
 
-policy for one lambda function ( stop-lambdafunction )
+3. policy for one lambda function ( stop-lambdafunction )
 
 --->  service = ec2    ---->  Actions allowed = select  " DescribeInstances , StopInstances "
 
