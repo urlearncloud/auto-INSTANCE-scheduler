@@ -20,3 +20,10 @@
 --->  Resources  = all
 
 --->  Policy name = stop-ec2-policy
+
+
+4. create one lambda function
+
+---> name = start-lambdafunction
+
+---> runtime = py-3.11
