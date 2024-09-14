@@ -22,7 +22,9 @@ def lambda_handler(event, context):
         return {
             'statusCode': 500,
             'body': f"Error starting EC2 instance: {str(e)}"
-        }' # Replace your Own Instance ID
+        }' 
+        # Specify the instance ID of the EC2 instance you want to stop
+    instance_id = 'i-01ad0101f699d7893' # Replace your Own Instance ID
 
     # Stop the EC2 instance
     try:
